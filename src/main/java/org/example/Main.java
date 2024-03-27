@@ -2,6 +2,10 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        int[] notas = {8, 5, 4, 9, 10};
+
+        double media = Calculadora.calcularMedia(notas);
+
+        System.out.println(media);
     }
 }
